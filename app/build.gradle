@@ -22,6 +22,13 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    buildToolsVersion '26.0.2'
+}
+
+repositories {
+    maven {
+        url  "http://dl.bintray.com/lukaville/maven"
+    }
 }
 
 dependencies {
@@ -31,6 +38,11 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
-    compile 'org.web3j:core:3.0.1-android'
-    compile "org.jetbrains.anko:anko-commons:$anko_version"
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'org.web3j:core:3.0.1-android'
+    implementation "org.jetbrains.anko:anko:$anko_version"
+    implementation "org.jetbrains.anko:anko-commons:$anko_version"
+    implementation 'online.devliving:securedpreferencestore:0.5.0'
+    implementation 'com.android.support:design:26.1.0'
+    implementation 'com.nbsp:library:1.8'
 }

@@ -1,10 +1,9 @@
 package io.rocketico.signapp.core
 
-import io.rocketico.signapp.Utils
+import io.rocketico.signapp.utils.Utils
 import org.web3j.crypto.RawTransaction
 import org.web3j.crypto.TransactionUtils
 import org.web3j.crypto.WalletUtils
-import java.io.File
 
 object TransactionHelper {
     fun signTransaction(walletFile: String, password: String, transaction: RawTransaction): String {

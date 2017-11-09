@@ -1,4 +1,4 @@
-package io.rocketico.signapp
+package io.rocketico.signapp.utils
 
 object Utils {
     fun toHexString(bytes: ByteArray): String {
