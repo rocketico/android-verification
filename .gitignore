@@ -5,12 +5,11 @@
 /build
 /captures
 .externalNativeBuild
-.gitignore
-build.gradle
-libs/
-proguard-rules.pro
 .idea/
 gradle.properties
 gradle/
 gradlew
 gradlew.bat
+README.md
+app/libs/
+libs/
