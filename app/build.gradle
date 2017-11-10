@@ -46,4 +46,6 @@ dependencies {
     implementation 'online.devliving:securedpreferencestore:0.5.0'
     implementation 'com.android.support:design:26.1.0'
     implementation 'com.nbsp:library:1.8'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
 }
