@@ -7,45 +7,19 @@
     tools:context="io.rocketico.signapp.MainActivity"
     tools:layout_editor_absoluteY="81dp">
 
-    <Button
-        android:id="@+id/chooseWallet"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Choose wallet"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/currentWallet" />
-
-    <TextView
-        android:id="@+id/currentWallet"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Current wallet: (no selected)"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
-
-    <Button
-        android:id="@+id/generateHash"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Generate transaction hash"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/chooseWallet" />
-
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
+    <FrameLayout
+        android:id="@+id/container"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:theme="@style/Toolbar"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:title="Rocket ICO" />
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
 
 </android.support.constraint.ConstraintLayout>
