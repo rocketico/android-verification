@@ -2,7 +2,11 @@
 <resources>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#00F082</color>
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
+
+    <color name="windowBackground">#F5F6F6</color>
+    <color name="editTextBackground">#FFFFFF</color>
+    <color name="editTextTextColor">#454545</color>
 </resources>

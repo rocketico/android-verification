@@ -5,19 +5,32 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
         <item name="android:statusBarColor">@color/black</item>
-        <item name="android:buttonStyle">@style/Button</item>
+        <item name="buttonStyle">@style/AppTheme.Button</item>
+        <item name="editTextStyle">@style/AppTheme.EditText</item>
     </style>
 
-    <style name="Toolbar" parent="Widget.AppCompat.ActionBar">
+    <style name="AppTheme.Toolbar" parent="Widget.AppCompat.ActionBar">
         <item name="android:textColorPrimary">@color/black</item>
         <item name="android:background">@color/white</item>
         <item name="android:minHeight">?attr/actionBarSize</item>
     </style>
 
-    <style name="Button" parent="@style/Widget.AppCompat.Button.Borderless">
-
+    <style name="AppTheme.Button" parent="@style/Widget.AppCompat.Button">
+        <item name="android:background">#00F082</item>
+        <item name="android:fontFamily">@font/stratos_semibold</item>
+        <item name="android:textSize">@dimen/buttonTextSize</item>
     </style>
 
+    <style name="AppTheme.EditText" parent="@style/Widget.AppCompat.EditText">
+        <item name="android:background">@color/editTextBackground</item>
+        <item name="android:textSize">@dimen/editTextTextSize</item>
+        <item name="android:textColor">@color/editTextTextColor</item>
+        <item name="android:paddingLeft">@dimen/editTextPaddingLeft</item>
+        <item name="android:paddingRight">@dimen/editTextPaddingRight</item>
+        <item name="android:paddingTop">@dimen/editTextPaddingTop</item>
+        <item name="android:paddingBottom">@dimen/editTextPaddingBottom</item>
+        <item name="android:fontFamily">@font/stratos_semibold</item>
+    </style>
 </resources>
