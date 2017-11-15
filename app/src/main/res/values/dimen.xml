@@ -7,4 +7,5 @@
     <dimen name="editTextPaddingTop">13dp</dimen>
     <dimen name="editTextTextSize">15sp</dimen>
     <dimen name="buttonTextSize">17sp</dimen>
+    <dimen name="textViewTextSize">14sp</dimen>
 </resources>

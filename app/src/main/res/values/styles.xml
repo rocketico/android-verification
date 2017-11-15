@@ -18,9 +18,15 @@
     </style>
 
     <style name="AppTheme.Button" parent="@style/Widget.AppCompat.Button">
-        <item name="android:background">#00F082</item>
+        <item name="android:paddingLeft">13dp</item>
+        <item name="android:paddingRight">13dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">@drawable/button_background</item>
         <item name="android:fontFamily">@font/stratos_semibold</item>
         <item name="android:textSize">@dimen/buttonTextSize</item>
+        <item name="android:stateListAnimator">@null</item>
     </style>
 
     <style name="AppTheme.EditText" parent="@style/Widget.AppCompat.EditText">
@@ -32,5 +38,11 @@
         <item name="android:paddingTop">@dimen/editTextPaddingTop</item>
         <item name="android:paddingBottom">@dimen/editTextPaddingBottom</item>
         <item name="android:fontFamily">@font/stratos_semibold</item>
+    </style>
+
+    <style name="AppTheme.TextView">
+        <item name="android:fontFamily">@font/stratos_regular</item>
+        <item name="android:textColor">@color/textViewTextColor</item>
+        <item name="android:textSize">@dimen/textViewTextSize</item>
     </style>
 </resources>
