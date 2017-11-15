@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Signapp</string>
+    <string name="your_e_mail">Your E-mail</string>
+    <string name="password">Password</string>
 </resources>

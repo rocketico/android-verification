@@ -38,6 +38,7 @@
         <item name="android:paddingTop">@dimen/editTextPaddingTop</item>
         <item name="android:paddingBottom">@dimen/editTextPaddingBottom</item>
         <item name="android:fontFamily">@font/stratos_semibold</item>
+        <item name="android:textColorHint">@color/editTextTextColorHint</item>
     </style>
 
     <style name="AppTheme.TextView">

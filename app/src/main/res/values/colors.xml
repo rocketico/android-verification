@@ -10,6 +10,7 @@
     <color name="windowBackground">#F5F6F6</color>
     <color name="editTextBackground">#FFFFFF</color>
     <color name="editTextTextColor">#454545</color>
+    <color name="editTextTextColorHint">#A2A6AF</color>
 
     <color name="textViewTextColor">#5A6170</color>
 </resources>
